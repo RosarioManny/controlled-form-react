@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import { BookShelf } from './component/BookShelf.jsx'
+import BookShelf  from './components/BookShelf'
 
 const App = () => {
+
   return (
     <>
-      <h1>My BookShelf</h1>;
+      <h1>My BookShelf</h1>
       <BookShelf />
     </>
 
